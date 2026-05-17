@@ -120,5 +120,39 @@ Below is a short guide to every file in the repository and its role in the syste
 - **Native Installer**: Future releases will include a professional `.exe` installer (using `jpackage`), which wil bundle its own Java Runtime—no manual setup required.
 - **Cross-Platform Bundles**: Standalone packages for Linux and macOS.
 
+
+## 🚀 Getting Started Guide
+
+### 📌 Prerequisites
+- Java JDK 8 or higher installed  
+- Basic understanding of running Java applications  
+- Terminal / Command Prompt access<br><br>  
+
+### 📥 Clone the Repository
+bash
+git clone https://github.com/ktk-007/os-thread-simulator.git
+cd os-thread-simulator<br><br>
+### ▶️ Run the Project
+Windows
+
+Run the installer:
+
+RTOS_ThreadVision_Installer.exe
+
+### OR run JAR file:
+
+java -jar OSThreadSim.jar
+Linux / macOS
+bash run.sh<br><br>
+### 🧠 Basic UsageSelect scheduling algorithm from the Top Bar (FCFS, RR, SJF, Priority)
+Add processes and threads from the left panel
+Click ▶ Start to begin simulation
+Use ⏭ Step for step-by-step execution
+Monitor execution using Gantt chart and CPU core view<br><br>
+### 🎯 Notes
+Ensure Java is installed before running the project
+No Maven/Gradle required (fully dependency-free project)
+
+
 ---
 **Ownership**: Tharun (ktk-007) | **GitHub**: https://github.com/ktk-007/os-thread-simulator
